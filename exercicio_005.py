@@ -42,10 +42,6 @@ try:
         resultado = calculadora(numero_1, numero_2, operador)
         print(resultado)
 
-            
-                
-        continuar = input('Você deseja fazer um novo calculo? [S]im ou [N]ão: ').lower().strip()
-
         sair = input('Digite [S] para sair ou [C] para continuar: ').strip().lower()
 
         if sair == 's':
